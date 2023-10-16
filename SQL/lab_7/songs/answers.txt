@@ -1,0 +1,16 @@
+1.
+    Q: If `songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+
+    A: Like they may be trying to dance some blues away, and it's probably working.
+
+2.
+    Q: Hypothesize about why the way you've calculated this aura might *not* be very representative of the listener.
+        What better ways of calculating this aura would you propose?
+
+    A: I imagine this is a rather accurate way to characterize the over-arching mood of the listener.
+
+        However it would not account for significant changes in these values which
+        may indicate events of significant, yet temporary swings of preference.
+
+        A standard deviation would begin to point to such a case.
+        Using dates and frequencies might yield a more accurate representation.
