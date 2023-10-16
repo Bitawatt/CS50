@@ -1,0 +1,486 @@
+├── Algorithms
+│   ├── lab_3
+│   │   ├── lab_3_notes.md
+│   │   └── sort
+│   │       ├── answers.txt
+│   │       ├── random10000.txt
+│   │       ├── random5000.txt
+│   │       ├── random50000.txt
+│   │       ├── reversed10000.txt
+│   │       ├── reversed5000.txt
+│   │       ├── reversed50000.txt
+│   │       ├── sort1
+│   │       ├── sort2
+│   │       ├── sort3
+│   │       ├── sorted10000.txt
+│   │       ├── sorted5000.txt
+│   │       └── sorted50000.txt
+│   ├── plurality
+│   │   ├── plurality
+│   │   └── plurality.c
+│   ├── runoff
+│   │   ├── psuedo_runoff.md
+│   │   ├── runoff
+│   │   └── runoff.c
+│   └── tideman
+│       ├── tideman
+│       └── tideman.c
+├── Arrays
+│   ├── caesar
+│   │   ├── caesar
+│   │   └── caesar.c
+│   ├── lab_2
+│   │   └── scrabble
+│   │       ├── scrabble
+│   │       └── scrabble.c
+│   ├── practice
+│   │   ├── hours
+│   │   │   ├── hours
+│   │   │   └── hours.c
+│   │   ├── no-vowels
+│   │   │   ├── no-2-vowels
+│   │   │   ├── no-2-vowels.c
+│   │   │   ├── no-3-vowels
+│   │   │   ├── no-3-vowels.c
+│   │   │   ├── no-4-vowels
+│   │   │   ├── no-4-vowels.c
+│   │   │   ├── no-vowels
+│   │   │   └── no-vowels.c
+│   │   ├── password
+│   │   │   ├── password
+│   │   │   └── password.c
+│   │   └── readability
+│   │       └── readability.c
+│   └── readability
+│       ├── readability
+│       └── readability.c
+├── C
+│   ├── credit
+│   │   ├── credit
+│   │   ├── credit.c
+│   │   └── credit_2.c
+│   ├── hello
+│   │   ├── hello
+│   │   └── hello.c
+│   ├── lab_1
+│   │   ├── debug
+│   │   │   ├── debug
+│   │   │   └── debug.c
+│   │   ├── half
+│   │   │   ├── half
+│   │   │   └── half.c
+│   │   └── prime
+│   │       ├── prime
+│   │       └── prime.c
+│   ├── mario-more
+│   │   ├── mario
+│   │   └── mario.c
+│   └── population
+│       ├── population
+│       ├── population.c
+│       ├── test
+│       └── test.c
+├── Data_Structures
+│   ├── lab_5
+│   │   └── inheritance
+│   │       ├── inheritance
+│   │       └── inheritance.c
+│   └── speller
+│       ├── Makefile
+│       ├── dictionaries
+│       │   ├── large
+│       │   └── small
+│       ├── dictionary.c
+│       ├── dictionary.h
+│       ├── dictionary.o
+│       ├── hash_c.md
+│       ├── keys
+│       │   ├── aca.txt
+│       │   ├── austen.txt
+│       │   ├── birdman.txt
+│       │   ├── burnett.txt
+│       │   ├── carroll.txt
+│       │   ├── cat.txt
+│       │   ├── constitution.txt
+│       │   ├── federalist.txt
+│       │   ├── frankenstein.txt
+│       │   ├── grimm.txt
+│       │   ├── her.txt
+│       │   ├── holmes.txt
+│       │   ├── homer.txt
+│       │   ├── lalaland.txt
+│       │   ├── mansfield.txt
+│       │   ├── pneumonoultramicroscopicsilicovolcanoconiosis.txt
+│       │   ├── revenant.txt
+│       │   ├── rinehart.txt
+│       │   ├── shakespeare.txt
+│       │   ├── stein.txt
+│       │   ├── stoker.txt
+│       │   ├── surgery.txt
+│       │   ├── tolstoy.txt
+│       │   ├── wells.txt
+│       │   ├── whittier.txt
+│       │   ├── wordsworth.txt
+│       │   ├── xueqin1.txt
+│       │   └── xueqin2.txt
+│       ├── speller
+│       ├── speller.c
+│       ├── speller.o
+│       ├── speller50
+│       └── texts
+│           ├── aca.txt
+│           ├── austen.txt
+│           ├── birdman.txt
+│           ├── burnett.txt
+│           ├── carroll.txt
+│           ├── cat.txt
+│           ├── constitution.txt
+│           ├── federalist.txt
+│           ├── frankenstein.txt
+│           ├── grimm.txt
+│           ├── her.txt
+│           ├── holmes.txt
+│           ├── homer.txt
+│           ├── lalaland.txt
+│           ├── mansfield.txt
+│           ├── pneumonoultramicroscopicsilicovolcanoconiosis.txt
+│           ├── revenant.txt
+│           ├── rinehart.txt
+│           ├── shakespeare.txt
+│           ├── stein.txt
+│           ├── stoker.txt
+│           ├── surgery.txt
+│           ├── tolstoy.txt
+│           ├── wells.txt
+│           ├── whittier.txt
+│           ├── wordsworth.txt
+│           ├── xueqin1.txt
+│           └── xueqin2.txt
+├── LICENSE
+├── Memory
+│   ├── filter-more
+│   │   ├── Makefile
+│   │   ├── bmp.h
+│   │   ├── courtyard_out.bmp
+│   │   ├── filter
+│   │   ├── filter.c
+│   │   ├── helpers.c
+│   │   ├── helpers.h
+│   │   ├── images
+│   │   │   ├── courtyard.bmp
+│   │   │   ├── stadium.bmp
+│   │   │   ├── tower.bmp
+│   │   │   └── yard.bmp
+│   │   ├── stadium2_out.bmp
+│   │   ├── stadium_out.bmp
+│   │   ├── tower2_out.bmp
+│   │   ├── tower_out.bmp
+│   │   └── yard_out.bmp
+│   ├── lab_4
+│   │   └── smiley
+│   │       ├── Makefile
+│   │       ├── bmp.h
+│   │       ├── colorize
+│   │       ├── colorize.c
+│   │       ├── helpers.c
+│   │       ├── helpers.h
+│   │       ├── smiley.bmp
+│   │       └── smiley_out.bmp
+│   └── recover
+│       ├── card.raw
+│       ├── images
+│       │   ├── 000.jpg
+│       │   ├── 001.jpg
+│       │   ├── 002.jpg
+│       │   ├── 003.jpg
+│       │   ├── 004.jpg
+│       │   ├── 005.jpg
+│       │   ├── 006.jpg
+│       │   ├── 007.jpg
+│       │   ├── 008.jpg
+│       │   ├── 009.jpg
+│       │   ├── 010.jpg
+│       │   ├── 011.jpg
+│       │   ├── 012.jpg
+│       │   ├── 013.jpg
+│       │   ├── 014.jpg
+│       │   ├── 015.jpg
+│       │   ├── 016.jpg
+│       │   ├── 017.jpg
+│       │   ├── 018.jpg
+│       │   ├── 019.jpg
+│       │   ├── 020.jpg
+│       │   ├── 021.jpg
+│       │   ├── 022.jpg
+│       │   ├── 023.jpg
+│       │   ├── 024.jpg
+│       │   ├── 025.jpg
+│       │   ├── 026.jpg
+│       │   ├── 027.jpg
+│       │   ├── 028.jpg
+│       │   ├── 029.jpg
+│       │   ├── 030.jpg
+│       │   ├── 031.jpg
+│       │   ├── 032.jpg
+│       │   ├── 033.jpg
+│       │   ├── 034.jpg
+│       │   ├── 035.jpg
+│       │   ├── 036.jpg
+│       │   ├── 037.jpg
+│       │   ├── 038.jpg
+│       │   ├── 039.jpg
+│       │   ├── 040.jpg
+│       │   ├── 041.jpg
+│       │   ├── 042.jpg
+│       │   ├── 043.jpg
+│       │   ├── 044.jpg
+│       │   ├── 045.jpg
+│       │   ├── 046.jpg
+│       │   ├── 047.jpg
+│       │   ├── 048.jpg
+│       │   └── 049.jpg
+│       ├── recover
+│       └── recover.c
+├── Practice
+│   ├── Makefile
+│   ├── hours.c
+│   ├── no-2-vowels.c
+│   ├── no-4-vowels.c
+│   └── no-vowels_cp.c
+├── Python
+│   ├── credit_versions
+│   │   ├── credit_flags.py
+│   │   ├── credit_orig.py
+│   │   └── credit_re.py
+│   ├── dna
+│   │   ├── databases
+│   │   │   ├── large.csv
+│   │   │   └── small.csv
+│   │   ├── dna.py
+│   │   └── sequences
+│   │       ├── 1.txt
+│   │       ├── 10.txt
+│   │       ├── 11.txt
+│   │       ├── 12.txt
+│   │       ├── 13.txt
+│   │       ├── 14.txt
+│   │       ├── 15.txt
+│   │       ├── 16.txt
+│   │       ├── 17.txt
+│   │       ├── 18.txt
+│   │       ├── 19.txt
+│   │       ├── 2.txt
+│   │       ├── 20.txt
+│   │       ├── 3.txt
+│   │       ├── 4.txt
+│   │       ├── 5.txt
+│   │       ├── 6.txt
+│   │       ├── 7.txt
+│   │       ├── 8.txt
+│   │       └── 9.txt
+│   ├── sentimental-credit
+│   │   └── credit.py
+│   ├── sentimental-hello
+│   │   └── hello.py
+│   ├── sentimental-mario-more
+│   │   └── mario.py
+│   ├── sentimental-readability
+│   │   └── readability.py
+│   └── world-cup
+│       ├── 2018m.csv
+│       ├── 2019w.csv
+│       ├── answers.txt
+│       ├── results.txt
+│       ├── tournament.py
+│       └── tournament_test.py
+├── README.md
+├── SQL
+│   ├── fiftyville
+│   │   ├── answers.txt
+│   │   ├── fiftyville.db
+│   │   ├── log.sql
+│   │   ├── table_schema.md
+│   │   └── table_schema.txt
+│   ├── lab_7
+│   │   └── songs
+│   │       ├── 1.sql
+│   │       ├── 2.sql
+│   │       ├── 3.sql
+│   │       ├── 4.sql
+│   │       ├── 5.sql
+│   │       ├── 6.sql
+│   │       ├── 7.sql
+│   │       ├── 8.sql
+│   │       ├── answers.txt
+│   │       └── songs.db
+│   └── movies
+│       ├── 1.sql
+│       ├── 10.sql
+│       ├── 11.sql
+│       ├── 12.sql
+│       ├── 13.sql
+│       ├── 2.sql
+│       ├── 3.sql
+│       ├── 4.sql
+│       ├── 5.sql
+│       ├── 6.sql
+│       ├── 7.sql
+│       ├── 8.sql
+│       ├── 9.sql
+│       ├── LICENSE
+│       └── schema.txt
+├── Scratch
+│   ├── Scratch Project
+│   │   ├── 0039635b1d6853face36581784558454.wav
+│   │   ├── 008e491e213a036ae9b9e4603808f4c2.svg
+│   │   ├── 0112d85bc594d7e133845eb9a5f6b426.svg
+│   │   ├── 012f629a48afd555f1a333cc196d0062.svg
+│   │   ├── 042c31f5da30b49ea5ed22486167bfb3.svg
+│   │   ├── 04ccc72f32e909292adcaf40348be5f3.wav
+│   │   ├── 089c5195b753181391882dc68b155cd5.svg
+│   │   ├── 09489cf950ce0ecc83bc2b296040e65c.svg
+│   │   ├── 0aae06b65c875a6ba1fd51f4251b16b3.wav
+│   │   ├── 0e64d320adc2fce1556f08012a578a7b.svg
+│   │   ├── 10eed5b6b49ec7baf1d4b3b3fad0ac99.wav
+│   │   ├── 1139072c3d2d31fa5903c46632789d08.wav
+│   │   ├── 18e27dc527e973eb7ebd8e00012da6df.svg
+│   │   ├── 1cb60ecdb1075c8769cb346d5c2a22c7.wav
+│   │   ├── 1e3252a0a671a1bf3ff5ce20db76bed9.svg
+│   │   ├── 21871f47cb41b082a96f31599d74366b.svg
+│   │   ├── 22d94ee5daf557284465425a61186234.svg
+│   │   ├── 24d31f4ae0b497e0f036ca7b1b3bb789.svg
+│   │   ├── 2699e7c3ecb73a7cf9861d33dc59818c.wav
+│   │   ├── 2b01e0de0c1048fdf208f9cf87c8b759.svg
+│   │   ├── 2f391dcc7cbd04a45334e9faa950a516.svg
+│   │   ├── 31e623d199c84b530077475dd99f9c70.svg
+│   │   ├── 32f3af03ddfbd9cc89c8565678a26813.wav
+│   │   ├── 3682d8401b447a0307483df7491f4027.wav
+│   │   ├── 3bab76eae039ca76471cdffd3c06804e.svg
+│   │   ├── 3e86e0c84b349e21f0edc0f0ea3df3fe.svg
+│   │   ├── 3fcf81ddc5624387d7b546598b2af299.svg
+│   │   ├── 429342645468ca1189d1048d9685cb42.svg
+│   │   ├── 43e6c88b83d84536129ebf0b84c683d6.svg
+│   │   ├── 45b02fbd582c15a50e1953830b59b377.svg
+│   │   ├── 488c7ed337bfd8c642b626df3df81ab7.svg
+│   │   ├── 4af792de2989798e6848a92117092aca.svg
+│   │   ├── 4b33c58ba14e4555373fa2478b3f891f.wav
+│   │   ├── 4b6cc306fe79cea701559dd8d485eff3.wav
+│   │   ├── 4cdd9dd274cea407ea32e537e60ca7a7.svg
+│   │   ├── 4de2238a6b149ece2519bc0f2103a456.wav
+│   │   ├── 4e96592f961c4e75bffb0ec95c0959f0.svg
+│   │   ├── 4f57a1141a8dd092bef2acd69af0dd73.svg
+│   │   ├── 53a3c2e27d1fb5fdb14aaf0cb41e7889.wav
+│   │   ├── 53badb02228d10494e0efdd1e839548d.wav
+│   │   ├── 56df0714ed1ed455a2befd787a077214.wav
+│   │   ├── 59e6798683727d49ba26e0aa5c52764d.svg
+│   │   ├── 5cbdfced2bdba5630468d5cff1f3a72d.svg
+│   │   ├── 5e0de896afc8422a4bd0bc60d30be701.wav
+│   │   ├── 5f4216970527d5a2e259758ba12e6a1b.wav
+│   │   ├── 66968153be7dce9e5abf62d627ffe40f.wav
+│   │   ├── 6c30bb5533fc895d4b77a03527166c47.svg
+│   │   ├── 6f19ef5e61aaee787f672dc0e4521f77.svg
+│   │   ├── 70704055cc12ed056e2c2ba296346d2f.wav
+│   │   ├── 76d93dc6f9d2b831ab0d38eecfec46f8.svg
+│   │   ├── 7bd800cb66d6fb18886a4c5cea1b76a6.wav
+│   │   ├── 7c322013e4faea4dc2d341e0752546c1.wav
+│   │   ├── 7c887f6a2ecd1cdb85d5527898d7f7a0.wav
+│   │   ├── 7e5019890a930f3535604cf9cad63ba4.wav
+│   │   ├── 7ff4398af0f3accb4eaf32cd45a249f1.wav
+│   │   ├── 83a9787d4cb6f3b7632b4ddfebf74367.wav
+│   │   ├── 83c427d9fa8ae64e376f14138b843df6.svg
+│   │   ├── 8674e414fce8b5d0890e1ac596e3e7c6.svg
+│   │   ├── 8ce3bc6f69d1563f997186b60d3120f1.wav
+│   │   ├── 8d951a04a98c084c7ad9c998353897bd.svg
+│   │   ├── 97909f5ae0c6df17120bd74d3142b2cd.wav
+│   │   ├── 9913a64bfb5cfa6bb30ec24002cce56b.wav
+│   │   ├── 9b1c70ebb36de89be5d2f78cdd2cbf66.svg
+│   │   ├── 9b472469e9c4450cd165a39e3834515f.svg
+│   │   ├── 9c5e8205c106fa0907990477105f9ceb.svg
+│   │   ├── Scratch - Imagine, Program, Share.html
+│   │   ├── Scratch - Imagine, Program, Share_files
+│   │   │   ├── 00aa0c4320b93631ab3c223604ead431.svg
+│   │   │   ├── 3abda41e22f85951f4fa66565e286893.svg
+│   │   │   ├── 3e6a0a68ee1872bee1f93e4428bcb993.svg
+│   │   │   ├── 63edd39e6afe6627d8e6e8db62bff5a1.svg
+│   │   │   ├── 679ce05ac8c35bbf83f596e895ab711b.svg
+│   │   │   ├── 78e3f697df85275aa8d384ca6fc0e288.svg
+│   │   │   ├── 7d2d28d80d4ae06acb4fdbde429448e6.svg
+│   │   │   ├── 8be7b8c8a8d7a982bf7f892af94629fe.svg
+│   │   │   ├── 90fb0caa5319c39b24946476dd32bb0d.svg
+│   │   │   ├── 947a6530bad18e5d96fe3d3433f2f937.svg
+│   │   │   ├── a11919e102077f40302da55fb9150440.svg
+│   │   │   ├── bc0fbf502b38884f440135ddae40016d.svg
+│   │   │   ├── c216c70ef78cc80a1538a3accc6612af.svg
+│   │   │   ├── ccffa5bb71a2219a2c0d91121edb46ea.svg
+│   │   │   ├── cee477fa706ab6fe733a65edd475c41b.svg
+│   │   │   ├── common.bundle.js.download
+│   │   │   ├── common.css
+│   │   │   ├── d2167f2daa4c134da69bd74d18b7e94d.svg
+│   │   │   ├── d259fcbecaa9d2a22d19848daff9d4c6.svg
+│   │   │   ├── d47549bb6e9f027aec84dff992940caf.svg
+│   │   │   ├── e962bb14129d55b565bd1ebdebdf6cce.svg
+│   │   │   ├── f6d9f33ec366a89a58b3cf0e125adf97.svg
+│   │   │   ├── gtm.js.download
+│   │   │   ├── js
+│   │   │   ├── normalize.min.css
+│   │   │   ├── polyfill.min.js.download
+│   │   │   ├── projects.bundle.js.download
+│   │   │   ├── projects.css
+│   │   │   └── projects.intl.js.download
+│   │   ├── Scratch Project (2) (1) (11) (9).sb3
+│   │   ├── a35b2325bc1e56d85e444023201a364a.wav
+│   │   ├── a5168b7463affd8a2eb5419d0c117d67.svg
+│   │   ├── a67f7b4fa924e0f49aa8f7600087e617.svg
+│   │   ├── a796a21dc5a4835a3cc482a18b0edc43.wav
+│   │   ├── ab61b545fd867f43e88c0bf891c9c1fd.svg
+│   │   ├── b15adefc3c12f758b6dc6a045362532f.wav
+│   │   ├── b532d7361210b0c688f695751af0c63b.svg
+│   │   ├── bcfcf0f1d7285d4b74027e293b57c3b8.svg
+│   │   ├── c09455ee9da0e7eeead42d4e73c2555d.wav
+│   │   ├── c6ce0aadb89903a43f76fc20ea57633e.wav
+│   │   ├── ca694053020e42704bcf1fc01a70f1c3.wav
+│   │   ├── caa0a1685ef7a5334413834c6c818c5a.wav
+│   │   ├── cd21514d0531fdffb22204e0ec5ed84a.svg
+│   │   ├── cd88a01dfbed121f3b8078ed73c41d00.svg
+│   │   ├── ce5d91da8605d56cf95dbdde813e218e.svg
+│   │   ├── d6fbaf142b8a2232ef6b47034bf77e91.svg
+│   │   ├── d73eacaf5a905bf864041c7a70937ac4.wav
+│   │   ├── d8c78c6c272cca91342435ff543c1274.wav
+│   │   ├── dbee7f4b1183ddf1adab20e9bd2a9107.wav
+│   │   ├── dc11109f32e4c7627369450fb13a67a7.svg
+│   │   ├── dd93f7835a407d4de5b2512ec4a6a806.wav
+│   │   ├── ddf5f693d2cbceeaed49eefde68c1f7d.svg
+│   │   ├── e140d7ff07de8fa35c3d1595bba835ac.wav
+│   │   ├── e178d0c6eeced4a1f4006988b4bba8d7.svg
+│   │   ├── e29154f53f56f96f8a3292bdcddcec54.wav
+│   │   ├── e35b7f030f2550d4623a060748327ad7.svg
+│   │   ├── ec6374e26740d1411ccfd6a769499359.svg
+│   │   ├── ee0274d16b662f23f95f8e3b4a681393.svg
+│   │   ├── f624aec20a46a4d9e1d5d3bd2920d4a4.svg
+│   │   ├── f79a5bbaeae2dd23dc325c2a310a0958.svg
+│   │   ├── f95508e2c63da16521c01c2d03415455.svg
+│   │   ├── fb754078bbbad8d0e957de3bac81681f.svg
+│   │   ├── fbbbb76a2f53dae6ff1cf61b41f66038.wav
+│   │   ├── fcf4cb4b677e3c75abf3f9e905a0e1cc.svg
+│   │   ├── fde0e4d61a3e914d6589d8f6d90f138c.svg
+│   │   └── project.json
+│   ├── Scratch_Project.zip
+│   └── scratch_final.sb3
+├── course_notes_template.md
+├── images
+│   ├── i_took_cs50.jpg
+│   ├── image_credit.txt
+│   ├── stadium2_out.bmp
+│   ├── stadium_out.bmp
+│   ├── tower2_out.bmp
+│   ├── tower_out copy.bmp
+│   ├── tower_out.bmp
+│   └── yard_out.bmp
+├── scratchpad.md
+└── working
+    ├── dir_tree.txt
+    ├── readme50_tree.txt
+    ├── repo50_tree.json
+    ├── repo50_tree.txt
+    └── scripts
+        └── gif_maker.py
