@@ -1,0 +1,44 @@
+*.c linguist-language=C
+*.h linguist-language=C
+*.py linguist-language=Python
+*.sql linguist-language=SQL
+*.md linguist-language=Markdown
+*.txt linguist-vendored
+
+# binaries
+*.png binary
+*.jpg binary
+*.gif binary
+*.mp3 binary
+*.wav binary
+*.mp4 binary
+*.avi binary
+*.exe binary
+*.dll binary
+
+# eol for Linux
+*.txt eol=lf
+
+# eol for Windows
+# *.txt eol=crlf
+
+# eol for Mac
+# *.txt eol=cr
+
+# merge conflict strategies
+
+# for text
+# *.txt merge=union
+# *.docx merge=word
+
+# conflicts resolved favoring the current branch
+# *.c merge=ours
+# *.h merge=ours
+# *.py merge=ours
+# *.sql merge=ours
+
+# conflicts resolved favoring the other branch
+# *.c merge=theirs
+# *.h merge=theirs
+# *.py merge=theirs
+# *.sql merge=theirs
