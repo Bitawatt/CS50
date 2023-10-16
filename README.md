@@ -1,2 +1,4 @@
 # CS50
-Bitawatt's CS50 Labs, Problem_Sets and Course Materials
+Bitawatt's CS50 Labs, P_Sets and Course Materials
+
+![Harvard tower filtered w/C](images/tower_out.bmp)
