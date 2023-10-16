@@ -1,6 +1,6 @@
 
-Images originally from course_material - Harvard/CS50
-
+## Images originally from course_material - Harvard/CS50
+- *presently unknown photographers*
 - [license](https://cs50.harvard.edu/x/2023/license/)
 - Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license
 
