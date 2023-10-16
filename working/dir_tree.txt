@@ -1,0 +1,335 @@
+$ tree -h
+[4.0K]  .
+├── [4.0K]  practice_etc
+│   ├── [ 16K]  addresses
+│   ├── [  82]  addresses.c
+│   ├── [ 16K]  compare
+│   ├── [ 225]  compare.c
+│   └── [8.9K]  fall
+├── [4.0K]  test
+├── [4.0K]  week_1
+│   ├── [4.0K]  credit
+│   │   ├── [ 17K]  credit
+│   │   ├── [2.1K]  credit_2.c
+│   │   └── [1.3K]  credit.c
+│   ├── [4.0K]  hello
+│   │   ├── [ 16K]  hello
+│   │   └── [ 141]  hello.c
+│   ├── [4.0K]  lab_1
+│   │   ├── [4.0K]  debug
+│   │   │   ├── [ 16K]  debug
+│   │   │   └── [ 355]  debug.c
+│   │   ├── [4.0K]  half
+│   │   │   ├── [ 17K]  half
+│   │   │   └── [ 646]  half.c
+│   │   └── [4.0K]  prime
+│   │       ├── [ 17K]  prime
+│   │       └── [1.7K]  prime.c
+│   ├── [4.0K]  mario-more
+│   │   ├── [ 16K]  mario
+│   │   └── [ 565]  mario.c
+│   └── [4.0K]  population
+│       ├── [ 16K]  population
+│       ├── [ 513]  population.c
+│       ├── [ 16K]  test
+│       └── [ 113]  test.c
+├── [4.0K]  week_2
+│   ├── [4.0K]  caesar
+│   │   ├── [ 18K]  caesar
+│   │   └── [1.4K]  caesar.c
+│   ├── [4.0K]  lab_2
+│   │   └── [4.0K]  scrabble
+│   │       ├── [ 18K]  scrabble
+│   │       └── [1.7K]  scrabble.c
+│   ├── [4.0K]  practice
+│   │   ├── [4.0K]  hours
+│   │   │   ├── [ 17K]  hours
+│   │   │   └── [1.2K]  hours.c
+│   │   ├── [4.0K]  no-vowels
+│   │   │   ├── [ 17K]  no-2-vowels
+│   │   │   ├── [2.4K]  no-2-vowels.c
+│   │   │   ├── [ 17K]  no-3-vowels
+│   │   │   ├── [2.4K]  no-3-vowels.c
+│   │   │   ├── [ 17K]  no-4-vowels
+│   │   │   ├── [1.6K]  no-4-vowels.c
+│   │   │   ├── [ 17K]  no-vowels
+│   │   │   └── [1.2K]  no-vowels.c
+│   │   ├── [4.0K]  password
+│   │   │   ├── [ 17K]  password
+│   │   │   └── [1.9K]  password.c
+│   │   └── [4.0K]  readability
+│   │       └── [2.8K]  readability.c
+│   └── [4.0K]  readability
+│       ├── [ 18K]  readability
+│       └── [1.6K]  readability.c
+├── [4.0K]  week_3
+│   ├── [4.0K]  lab_3
+│   │   ├── [1.5K]  lab_3_notes.md
+│   │   └── [4.0K]  sort
+│   │       ├── [1.8K]  answers.txt
+│   │       ├── [ 48K]  random10000.txt
+│   │       ├── [282K]  random50000.txt
+│   │       ├── [ 23K]  random5000.txt
+│   │       ├── [ 48K]  reversed10000.txt
+│   │       ├── [282K]  reversed50000.txt
+│   │       ├── [ 23K]  reversed5000.txt
+│   │       ├── [8.2K]  sort1
+│   │       ├── [8.2K]  sort2
+│   │       ├── [8.2K]  sort3
+│   │       ├── [ 48K]  sorted10000.txt
+│   │       ├── [282K]  sorted50000.txt
+│   │       └── [ 23K]  sorted5000.txt
+│   ├── [4.0K]  plurality
+│   │   ├── [ 18K]  plurality
+│   │   └── [2.3K]  plurality.c
+│   ├── [4.0K]  runoff
+│   │   ├── [4.4K]  psuedo_runoff.md
+│   │   ├── [ 19K]  runoff
+│   │   └── [4.6K]  runoff.c
+│   └── [4.0K]  tideman
+│       ├── [ 20K]  tideman
+│       └── [5.9K]  tideman.c
+├── [4.0K]  week_4
+│   ├── [4.0K]  filter-more
+│   │   ├── [1.7K]  bmp.h
+│   │   ├── [703K]  courtyard_out.bmp
+│   │   ├── [ 27K]  filter
+│   │   ├── [3.4K]  filter.c
+│   │   ├── [5.0K]  helpers.c
+│   │   ├── [ 385]  helpers.h
+│   │   ├── [4.0K]  images
+│   │   │   ├── [703K]  courtyard.bmp
+│   │   │   ├── [703K]  stadium.bmp
+│   │   │   ├── [703K]  tower.bmp
+│   │   │   └── [703K]  yard.bmp
+│   │   ├── [ 215]  Makefile
+│   │   ├── [703K]  stadium2_out.bmp
+│   │   ├── [703K]  stadium_out.bmp
+│   │   ├── [703K]  tower2_out.bmp
+│   │   ├── [703K]  tower_out.bmp
+│   │   └── [703K]  yard_out.bmp
+│   ├── [4.0K]  lab_4
+│   │   └── [4.0K]  smiley
+│   │       ├── [1.7K]  bmp.h
+│   │       ├── [392K]  colorize
+│   │       ├── [2.5K]  colorize.c
+│   │       ├── [ 521]  helpers.c
+│   │       ├── [ 107]  helpers.h
+│   │       ├── [ 237]  Makefile
+│   │       ├── [ 246]  smiley.bmp
+│   │       └── [ 246]  smiley_out.bmp
+│   └── [ 20K]  recover
+│       ├── [494K]  card.raw
+│       ├── [4.0K]  images
+│       │   ├── [ 10K]  000.jpg
+│       │   ├── [9.5K]  001.jpg
+│       │   ├── [ 10K]  002.jpg
+│       │   ├── [ 10K]  003.jpg
+│       │   ├── [ 10K]  004.jpg
+│       │   ├── [ 10K]  005.jpg
+│       │   ├── [ 10K]  006.jpg
+│       │   ├── [ 10K]  007.jpg
+│       │   ├── [9.5K]  008.jpg
+│       │   ├── [ 10K]  009.jpg
+│       │   ├── [ 10K]  010.jpg
+│       │   ├── [ 10K]  011.jpg
+│       │   ├── [ 10K]  012.jpg
+│       │   ├── [ 10K]  013.jpg
+│       │   ├── [9.5K]  014.jpg
+│       │   ├── [ 10K]  015.jpg
+│       │   ├── [ 10K]  016.jpg
+│       │   ├── [ 10K]  017.jpg
+│       │   ├── [ 10K]  018.jpg
+│       │   ├── [9.5K]  019.jpg
+│       │   ├── [ 10K]  020.jpg
+│       │   ├── [ 10K]  021.jpg
+│       │   ├── [9.5K]  022.jpg
+│       │   ├── [ 10K]  023.jpg
+│       │   ├── [ 10K]  024.jpg
+│       │   ├── [ 10K]  025.jpg
+│       │   ├── [9.5K]  026.jpg
+│       │   ├── [ 10K]  027.jpg
+│       │   ├── [ 10K]  028.jpg
+│       │   ├── [ 10K]  029.jpg
+│       │   ├── [ 10K]  030.jpg
+│       │   ├── [9.5K]  031.jpg
+│       │   ├── [ 10K]  032.jpg
+│       │   ├── [9.5K]  033.jpg
+│       │   ├── [ 10K]  034.jpg
+│       │   ├── [ 10K]  035.jpg
+│       │   ├── [ 10K]  036.jpg
+│       │   ├── [ 10K]  037.jpg
+│       │   ├── [ 10K]  038.jpg
+│       │   ├── [9.5K]  039.jpg
+│       │   ├── [9.5K]  040.jpg
+│       │   ├── [ 10K]  041.jpg
+│       │   ├── [ 10K]  042.jpg
+│       │   ├── [9.5K]  043.jpg
+│       │   ├── [ 10K]  044.jpg
+│       │   ├── [ 10K]  045.jpg
+│       │   ├── [ 10K]  046.jpg
+│       │   ├── [9.5K]  047.jpg
+│       │   ├── [9.5K]  048.jpg
+│       │   └── [ 10K]  049.jpg
+│       ├── [ 19K]  recover
+│       └── [2.2K]  recover.c
+├── [4.0K]  week_5
+│   ├── [4.0K]  lab_5
+│   │   └── [4.0K]  inheritance
+│   │       ├── [ 18K]  inheritance
+│   │       └── [3.3K]  inheritance.c
+│   └── [4.0K]  speller
+│       ├── [4.0K]  dictionaries
+│       │   ├── [1.4M]  large
+│       │   └── [  16]  small
+│       ├── [5.2K]  dictionary.c
+│       ├── [ 451]  dictionary.h
+│       ├── [8.5K]  dictionary.o
+│       ├── [6.0K]  hash_c.md
+│       ├── [4.0K]  keys
+│       │   ├── [ 66K]  aca.txt
+│       │   ├── [ 14K]  austen.txt
+│       │   ├── [7.7K]  birdman.txt
+│       │   ├── [8.1K]  burnett.txt
+│       │   ├── [1.5K]  carroll.txt
+│       │   ├── [  97]  cat.txt
+│       │   ├── [ 356]  constitution.txt
+│       │   ├── [9.4K]  federalist.txt
+│       │   ├── [9.0K]  frankenstein.txt
+│       │   ├── [5.3K]  grimm.txt
+│       │   ├── [5.7K]  her.txt
+│       │   ├── [135K]  holmes.txt
+│       │   ├── [ 73K]  homer.txt
+│       │   ├── [4.6K]  lalaland.txt
+│       │   ├── [6.5K]  mansfield.txt
+│       │   ├── [  98]  pneumonoultramicroscopicsilicovolcanoconiosis.txt
+│       │   ├── [5.7K]  revenant.txt
+│       │   ├── [8.8K]  rinehart.txt
+│       │   ├── [326K]  shakespeare.txt
+│       │   ├── [ 22K]  stein.txt
+│       │   ├── [ 18K]  stoker.txt
+│       │   ├── [ 31K]  surgery.txt
+│       │   ├── [108K]  tolstoy.txt
+│       │   ├── [ 31K]  wells.txt
+│       │   ├── [ 81K]  whittier.txt
+│       │   ├── [  99]  wordsworth.txt
+│       │   ├── [ 40K]  xueqin1.txt
+│       │   └── [ 64K]  xueqin2.txt
+│       ├── [ 627]  Makefile
+│       ├── [ 23K]  speller
+│       ├── [ 13K]  speller50
+│       ├── [5.0K]  speller.c
+│       ├── [ 14K]  speller.o
+│       └── [4.0K]  texts
+│           ├── [3.2M]  aca.txt
+│           ├── [688K]  austen.txt
+│           ├── [188K]  birdman.txt
+│           ├── [309K]  burnett.txt
+│           ├── [164K]  carroll.txt
+│           ├── [  28]  cat.txt
+│           ├── [ 44K]  constitution.txt
+│           ├── [1.1M]  federalist.txt
+│           ├── [452K]  frankenstein.txt
+│           ├── [520K]  grimm.txt
+│           ├── [170K]  her.txt
+│           ├── [6.3M]  holmes.txt
+│           ├── [1.1M]  homer.txt
+│           ├── [144K]  lalaland.txt
+│           ├── [313K]  mansfield.txt
+│           ├── [ 176]  pneumonoultramicroscopicsilicovolcanoconiosis.txt
+│           ├── [223K]  revenant.txt
+│           ├── [385K]  rinehart.txt
+│           ├── [5.2M]  shakespeare.txt
+│           ├── [457K]  stein.txt
+│           ├── [854K]  stoker.txt
+│           ├── [1.2M]  surgery.txt
+│           ├── [3.1M]  tolstoy.txt
+│           ├── [733K]  wells.txt
+│           ├── [3.4M]  whittier.txt
+│           ├── [ 875]  wordsworth.txt
+│           ├── [1.0M]  xueqin1.txt
+│           └── [1.4M]  xueqin2.txt
+├── [4.0K]  week_6
+│   ├── [4.0K]  credit_versions
+│   │   ├── [2.1K]  credit_flags.py
+│   │   ├── [2.2K]  credit_orig.py
+│   │   └── [2.0K]  credit_re.py
+│   ├── [4.0K]  dna
+│   │   ├── [4.0K]  databases
+│   │   │   ├── [ 740]  large.csv
+│   │   │   └── [  57]  small.csv
+│   │   ├── [2.2K]  dna.py
+│   │   └── [4.0K]  sequences
+│   │       ├── [5.6K]  10.txt
+│   │       ├── [6.0K]  11.txt
+│   │       ├── [6.2K]  12.txt
+│   │       ├── [6.3K]  13.txt
+│   │       ├── [5.6K]  14.txt
+│   │       ├── [5.6K]  15.txt
+│   │       ├── [5.7K]  16.txt
+│   │       ├── [5.6K]  17.txt
+│   │       ├── [6.6K]  18.txt
+│   │       ├── [5.9K]  19.txt
+│   │       ├── [ 171]  1.txt
+│   │       ├── [5.7K]  20.txt
+│   │       ├── [ 301]  2.txt
+│   │       ├── [ 242]  3.txt
+│   │       ├── [ 200]  4.txt
+│   │       ├── [5.9K]  5.txt
+│   │       ├── [5.6K]  6.txt
+│   │       ├── [6.0K]  7.txt
+│   │       ├── [5.8K]  8.txt
+│   │       └── [5.7K]  9.txt
+│   ├── [4.0K]  sentimental-credit
+│   │   └── [2.2K]  credit.py
+│   ├── [4.0K]  sentimental-hello
+│   │   └── [  98]  hello.py
+│   ├── [4.0K]  sentimental-mario-more
+│   │   └── [ 418]  mario.py
+│   ├── [4.0K]  sentimental-readability
+│   │   └── [1.3K]  readability.py
+│   └── [4.0K]  world-cup
+│       ├── [ 213]  2018m.csv
+│       ├── [ 223]  2019w.csv
+│       ├── [ 938]  answers.txt
+│       ├── [7.2K]  results.txt
+│       ├── [2.3K]  tournament.py
+│       └── [3.7K]  tournament_test.py
+└── [4.0K]  week_7
+    ├── [4.0K]  fiftyville
+    │   ├── [  90]  answers.txt
+    │   ├── [272K]  fiftyville.db
+    │   ├── [ 59K]  log.sql
+    │   ├── [2.1K]  table_schema.md
+    │   └── [2.1K]  table_schema.txt
+    ├── [4.0K]  lab_7
+    │   └── [4.0K]  songs
+    │       ├── [6.3K]  1.sql
+    │       ├── [6.3K]  2.sql
+    │       ├── [ 480]  3.sql
+    │       ├── [ 727]  4.sql
+    │       ├── [ 619]  5.sql
+    │       ├── [ 590]  6.sql
+    │       ├── [ 374]  7.sql
+    │       ├── [1.6K]  8.sql
+    │       ├── [ 810]  answers.txt
+    │       └── [ 24K]  songs.db
+    └── [4.0K]  movies
+        ├── [ 335]  10.sql
+        ├── [ 351]  11.sql
+        ├── [ 406]  12.sql
+        ├── [ 469]  13.sql
+        ├── [ 120]  1.sql
+        ├── [ 109]  2.sql
+        ├── [ 166]  3.sql
+        ├── [ 285]  4.sql
+        ├── [ 186]  5.sql
+        ├── [ 183]  6.sql
+        ├── [ 298]  7.sql
+        ├── [1009]  8.sql
+        ├── [ 358]  9.sql
+        ├── [  32]  LICENSE
+        ├── [ 77M]  movies.db
+        └── [1.1K]  schema.txt
+
+56 directories, 275 files
