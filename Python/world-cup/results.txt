@@ -1,0 +1,224 @@
+world-cup/ $ time python tournament.py
+Simulating tournament for 2018m.csv with 10 iterations...
+Belgium: 30.0% chance of winning
+Spain: 20.0% chance of winning
+Argentina: 20.0% chance of winning
+Denmark: 10.0% chance of winning
+Mexico: 10.0% chance of winning
+Brazil: 10.0% chance of winning
+Simulated tournament for 2018m.csv with 10 simulations:
+Real time: 0m0.000
+User time: 0m0.000
+Sys time: 0m0.000
+Simulating tournament for 2018m.csv with 100 iterations...
+Belgium: 23.0% chance of winning
+Brazil: 20.0% chance of winning
+Portugal: 16.0% chance of winning
+Spain: 12.0% chance of winning
+Argentina: 8.0% chance of winning
+Switzerland: 8.0% chance of winning
+France: 6.0% chance of winning
+Colombia: 4.0% chance of winning
+Denmark: 2.0% chance of winning
+Croatia: 1.0% chance of winning
+Simulated tournament for 2018m.csv with 100 simulations:
+Real time: 0m0.001
+User time: 0m0.001
+Sys time: 0m0.000
+Simulating tournament for 2018m.csv with 1000 iterations...
+Belgium: 21.1% chance of winning
+Brazil: 20.8% chance of winning
+Portugal: 14.2% chance of winning
+Spain: 10.6% chance of winning
+Switzerland: 10.1% chance of winning
+Argentina: 8.5% chance of winning
+France: 3.4% chance of winning
+Denmark: 3.2% chance of winning
+England: 2.9% chance of winning
+Croatia: 2.0% chance of winning
+Colombia: 1.3% chance of winning
+Mexico: 1.0% chance of winning
+Uruguay: 0.5% chance of winning
+Sweden: 0.4% chance of winning
+Simulated tournament for 2018m.csv with 1000 simulations:
+Real time: 0m0.008
+User time: 0m0.007
+Sys time: 0m0.001
+Simulating tournament for 2018m.csv with 10000 iterations...
+Belgium: 21.0% chance of winning
+Brazil: 20.8% chance of winning
+Portugal: 14.3% chance of winning
+Spain: 11.9% chance of winning
+Switzerland: 10.2% chance of winning
+Argentina: 8.3% chance of winning
+France: 3.3% chance of winning
+Denmark: 3.0% chance of winning
+England: 2.7% chance of winning
+Colombia: 1.7% chance of winning
+Croatia: 1.3% chance of winning
+Mexico: 0.6% chance of winning
+Uruguay: 0.4% chance of winning
+Sweden: 0.4% chance of winning
+Simulated tournament for 2018m.csv with 10000 simulations:
+Real time: 0m0.066
+User time: 0m0.064
+Sys time: 0m0.001
+Simulating tournament for 2018m.csv with 100000 iterations...
+Belgium: 21.0% chance of winning
+Brazil: 20.4% chance of winning
+Portugal: 14.1% chance of winning
+Spain: 12.0% chance of winning
+Switzerland: 10.6% chance of winning
+Argentina: 7.9% chance of winning
+France: 3.4% chance of winning
+Denmark: 3.3% chance of winning
+England: 2.8% chance of winning
+Colombia: 1.6% chance of winning
+Croatia: 1.4% chance of winning
+Mexico: 0.6% chance of winning
+Uruguay: 0.5% chance of winning
+Sweden: 0.5% chance of winning
+Japan: 0.0% chance of winning
+Russia: 0.0% chance of winning
+Simulated tournament for 2018m.csv with 100000 simulations:
+Real time: 0m0.628
+User time: 0m0.626
+Sys time: 0m0.002
+Simulating tournament for 2018m.csv with 1000000 iterations...
+Belgium: 21.1% chance of winning
+Brazil: 20.6% chance of winning
+Portugal: 14.2% chance of winning
+Spain: 12.0% chance of winning
+Switzerland: 10.4% chance of winning
+Argentina: 7.8% chance of winning
+France: 3.3% chance of winning
+Denmark: 3.2% chance of winning
+England: 2.7% chance of winning
+Colombia: 1.6% chance of winning
+Croatia: 1.3% chance of winning
+Mexico: 0.5% chance of winning
+Sweden: 0.5% chance of winning
+Uruguay: 0.5% chance of winning
+Russia: 0.0% chance of winning
+Japan: 0.0% chance of winning
+Simulated tournament for 2018m.csv with 1000000 simulations:
+Real time: 0m6.513
+User time: 0m6.481
+Sys time: 0m0.032
+Simulating tournament for 2019w.csv with 10 iterations...
+Germany: 40.0% chance of winning
+Canada: 20.0% chance of winning
+China PR: 10.0% chance of winning
+United States: 10.0% chance of winning
+England: 10.0% chance of winning
+Japan: 10.0% chance of winning
+Simulated tournament for 2019w.csv with 10 simulations:
+Real time: 0m0.000
+User time: 0m0.000
+Sys time: 0m0.000
+Simulating tournament for 2019w.csv with 100 iterations...
+United States: 21.0% chance of winning
+Germany: 14.0% chance of winning
+England: 12.0% chance of winning
+Japan: 11.0% chance of winning
+Canada: 11.0% chance of winning
+Sweden: 8.0% chance of winning
+Australia: 7.0% chance of winning
+France: 4.0% chance of winning
+Italy: 3.0% chance of winning
+Netherlands: 3.0% chance of winning
+Brazil: 2.0% chance of winning
+Norway: 2.0% chance of winning
+China PR: 1.0% chance of winning
+Spain: 1.0% chance of winning
+Simulated tournament for 2019w.csv with 100 simulations:
+Real time: 0m0.001
+User time: 0m0.001
+Sys time: 0m0.000
+Simulating tournament for 2019w.csv with 1000 iterations...
+England: 17.0% chance of winning
+Germany: 15.8% chance of winning
+United States: 14.4% chance of winning
+France: 9.5% chance of winning
+Netherlands: 6.7% chance of winning
+Canada: 6.6% chance of winning
+Japan: 6.5% chance of winning
+Australia: 6.4% chance of winning
+Sweden: 3.7% chance of winning
+Brazil: 3.5% chance of winning
+Norway: 3.5% chance of winning
+Spain: 2.3% chance of winning
+Italy: 2.2% chance of winning
+China PR: 1.8% chance of winning
+Nigeria: 0.1% chance of winning
+Simulated tournament for 2019w.csv with 1000 simulations:
+Real time: 0m0.008
+User time: 0m0.008
+Sys time: 0m-0.000
+Simulating tournament for 2019w.csv with 10000 iterations...
+Germany: 17.3% chance of winning
+England: 14.9% chance of winning
+United States: 13.9% chance of winning
+France: 8.4% chance of winning
+Canada: 7.3% chance of winning
+Japan: 7.1% chance of winning
+Australia: 7.0% chance of winning
+Netherlands: 5.6% chance of winning
+Sweden: 4.7% chance of winning
+Brazil: 3.5% chance of winning
+Norway: 2.9% chance of winning
+China PR: 2.4% chance of winning
+Italy: 2.3% chance of winning
+Spain: 2.3% chance of winning
+Nigeria: 0.1% chance of winning
+Cameroon: 0.0% chance of winning
+Simulated tournament for 2019w.csv with 10000 simulations:
+Real time: 0m0.063
+User time: 0m0.062
+Sys time: 0m0.001
+Simulating tournament for 2019w.csv with 100000 iterations...
+Germany: 16.9% chance of winning
+England: 14.8% chance of winning
+United States: 14.2% chance of winning
+France: 8.7% chance of winning
+Canada: 7.2% chance of winning
+Australia: 7.1% chance of winning
+Japan: 7.1% chance of winning
+Netherlands: 5.7% chance of winning
+Sweden: 4.6% chance of winning
+Brazil: 3.3% chance of winning
+Norway: 2.9% chance of winning
+China PR: 2.5% chance of winning
+Italy: 2.5% chance of winning
+Spain: 2.3% chance of winning
+Nigeria: 0.1% chance of winning
+Cameroon: 0.0% chance of winning
+Simulated tournament for 2019w.csv with 100000 simulations:
+Real time: 0m0.641
+User time: 0m0.638
+Sys time: 0m0.003
+Simulating tournament for 2019w.csv with 1000000 iterations...
+Germany: 16.9% chance of winning
+England: 14.6% chance of winning
+United States: 14.1% chance of winning
+France: 8.7% chance of winning
+Canada: 7.2% chance of winning
+Japan: 7.1% chance of winning
+Australia: 7.0% chance of winning
+Netherlands: 5.6% chance of winning
+Sweden: 4.8% chance of winning
+Brazil: 3.4% chance of winning
+Norway: 3.0% chance of winning
+Italy: 2.5% chance of winning
+China PR: 2.5% chance of winning
+Spain: 2.4% chance of winning
+Nigeria: 0.1% chance of winning
+Cameroon: 0.0% chance of winning
+Simulated tournament for 2019w.csv with 1000000 simulations:
+Real time: 0m6.619
+User time: 0m6.501
+Sys time: 0m0.118
+
+real    0m14.577s
+user    0m14.390s
+sys     0m0.024s

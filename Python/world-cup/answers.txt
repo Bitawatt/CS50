@@ -1,0 +1,23 @@
+Times:
+
+10 simulations: 0m0.022s
+100 simulations: 0m0.021s
+1000 simulations: 0m0.026s
+10000 simulations: 0m0.088s
+100000 simulations: 0m0.680s
+1000000 simulations: 0m6.352s
+
+Questions:
+
+Which predictions, if any, proved incorrect as you increased the number of simulations?:
+
+The only erroneous probabilities existed in the '10 Simulations' run
+- where, given the way the probabilities are generated, it was not enough to make viable predictions.
+Where, `N` >= 100, the probabilities represented a calculable margin of error.
+
+Suppose you're charged a fee for each second of compute time your program uses.
+After how many simulations would you call the predictions "good enough"?:
+
+There was no effective change after 10e4-simulations, and no substantial change (< 0.9) after 10e3-simulations.
+Depending on how much one had bet on the tournament versus the cost of the computation time, one of these two
+levels would have been sufficient.
