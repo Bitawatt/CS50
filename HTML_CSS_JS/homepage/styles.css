@@ -1,0 +1,133 @@
+
+nav {
+    background-color: #76adfb;
+    color: blue;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    border-bottom: 10px solid #fdffb6;
+  }
+  
+  nav a {
+    color: blue;
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+
+  nav a:hover, nav a.active {
+    color: pink;
+    background-color: blue;
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+  }
+
+h1 {
+    font-size: 2em;
+    color: #000;
+    margin-bottom: 0%;
+    margin-left: 6%;
+}
+
+.tagline {
+    font-size: 1.1em;
+    color: greenyellow;
+    margin-top: 0%;
+    margin-left: 6%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(185, 185, 222);
+    color: #000;
+
+}
+
+h4 {
+    color: #fff;
+}
+
+.box {
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 1rem;
+  }
+
+  .two-column_list {
+    display: flex;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+    /* max-width: 800px; <!-- Adjust as needed -->`
+    margin: auto; */
+}
+
+.two-column_list ul {
+    list-style-type: disc;
+    padding-left: 40px; /* Adjust as needed */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+sub {
+    font-size: 0.8em;
+    vertical-align: baseline;
+  }
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
+
+img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 3px;
+}
+
+figcaption {
+    color: #fff;
+}
+  
+  /* Style the accordion body */
+  .accordion-body {
+    background-color:#444fc9;
+    color: #fff;
+    /* padding: 1rem;
+    border: 1px solid #ccc;*/
+  } 
+
+  .accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+  }
+  
+  .accordion-button:not(.collapsed) {
+    color: #0c63e4;
+    background-color: #e7f1ff;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+  }
+  
+  [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+  }
+  
+  .accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    color: #212921;
+    text-align: left;
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+  }

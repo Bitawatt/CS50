@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <meta property="og:title" content="BitaWatt">
+    <meta property="og:type" content="website">
+    <!-- <meta property="og:url" content="https://bitawatt.com">
+    <meta property="og:image" content="https://bitawatt.com/images/Logo.png"> -->
+    <meta property="og:description" content="BitaWatt is a company producing energy while reducing greenhouse gasses.">
+    <meta property="og:site_name" content="BitaWatt">
+    <meta property="og:locale" content="en_US">
+    
+    <title>BitaWatt</title>
+    <link href="styles.css" rel="stylesheet">
+    <script>
+        const navLinks = document.querySelectorAll('nav a');
+    
+        navLinks.forEach(link => {
+          link.addEventListener('mouseover', () => {
+            link.classList.add('active');
+          });
+        
+          link.addEventListener('mouseout', () => {
+            link.classList.remove('active');
+          });
+        });
+    </script>   
+</head>
+<body>
+    <nav>
+        <a href="about.html">About Us</a>
+        <a href="get_involved.html">Get Involved</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    <h1>BitaWatt</h1>
+    <p class="tagline"><i>Doing what We can to make a Livable Tomorrow</i></p>
+    <div class="box">
+    <div>
+        <h4>What we do:</h4>
+        <p>We are doing our best to make the world a better place. We are a company that produces energy while removing greenhouse gasses from the atmosphere.<br>
+        Want to know how easy this is? Learn a little more <a href="about.html">About Us.</a></p>
+    </div>
+    <div>
+        <h4>What you can do:</h4>
+        <p>There is no one who is better at doing what you can do than you. Together we can do even more.<br>
+        There are lots of ways for you to <a href="get_involved.html">Get Involved!</a></p>
+    </div>
+    <div>
+        <h4>What we can do together:</h4>
+        <p>We are always looking for ways to improve, and what else can be done. We would love to hear from you.<br>
+        If you have your own ideas that could use a boost, we'd love to collaborate or share our resources, just <a href="contact.html">Contact Us,</a> and we'll see how we can support your efforts.</p>
+    </div>
+    </div>
+</body>
+</html>
